@@ -1,0 +1,7 @@
+#### AidNet model parameters
+context_size_left: 4096 # samples - context added to the left side of the audio input to avoid convolutional edge effects
+context_size_right: 4096 # samples - context added to the right side of the audio input to avoid convolutional edge effects
+fs_audio: 24414.0625 # Hz - sampling rate for the audio input and output of the model
+p0: 0.00002 # dB SPL reference of 2e-5 Pascal
+audio_normalisation: 0.04 # 1/25 normalisation factor applied to the audio inputs
+n_encoder_layers: 9 # number of encoder layers
