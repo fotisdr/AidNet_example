@@ -1,7 +1,6 @@
 # This file may be used to create an environment using:
 # $ pip install -r <this file>
 # platform: linux-64
-tensorflow==2.15.0
 matplotlib==3.10.6
 scipy==1.15.3
 numpy==1.24.3
@@ -9,3 +8,4 @@ librosa==0.11.0
 jupyterlab==4.4.7
 typing_extensions==4.15.0
 acoustics==0.2.6
+tensorflow

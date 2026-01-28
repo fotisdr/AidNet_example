@@ -1,0 +1,9 @@
+name: aidnet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - tensorflow==2.15.0
+    - -r requirements.txt
