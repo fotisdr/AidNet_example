@@ -28,9 +28,9 @@ The example Jupyter notebook can then be executed on Jupyter lab by running `jup
 ## Citation
 If you use this code, please cite the corresponding paper or this repository:
 
-> Drakopoulos, F., Pellatt, L., Fragner, A. & Lesica, N. A. (2024). AidNet: A DNN-based hearing aid for optimal restoration of the neural code (v1.0). Zenodo. .
+> Drakopoulos, F., Pellatt, L., Fragner, A. & Lesica, N. A. (2026). AidNet: A DNN-based hearing aid for restoration of central neural coding (v1.0). Zenodo. https://doi.org/10.5281/zenodo.18407091
 
-DOI
+[![DOI](https://zenodo.org/badge/1132940890.svg)](https://doi.org/10.5281/zenodo.18407090)
 
 ##
 For questions, please reach out to one of the corresponding authors:
