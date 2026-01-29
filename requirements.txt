@@ -8,4 +8,4 @@ librosa==0.11.0
 jupyterlab==4.4.7
 typing_extensions==4.15.0
 acoustics==0.2.6
-tensorflow
+tensorflow==2.15.0
