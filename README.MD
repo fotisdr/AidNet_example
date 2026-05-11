@@ -1,7 +1,7 @@
 ### AidNet: A DNN-based hearing aid for optimal restoration of central neural coding
 
 This repository contains the source code of AidNet, a deep-learning-based model developed to restore impaired neural activity in the inferior colliculus (IC). The example AidNet model was trained to compensate for the hearing impairment of an example noise-exposed animal with a symmetric, mild, high-frequency hearing loss. An example Jupyter notebook `AidNet_example.ipynb` is included that can be used to process any sound using the provided AidNet model. The notebook can also be directly executed on [Binder](https://mybinder.org/v2/gh/fotisdr/AidNet_example/HEAD?urlpath=%2Fdoc%2Ftree%2FAidNet_example.ipynb) without a local Python installation. The supporting work can be cited as follows:
-> Drakopoulos, F., Pellatt, L., Sabesan, S., Xia, Y., Gong, T., Fragner, A. & Lesica, N. A. (2026). Optimal hearing aid design through restoration of the neural code.
+> Drakopoulos, F., Pellatt, L., Sabesan, S., Xia, Y., Gong, T., Fragner, A. & Lesica, N. A. (2026). Optimal hearing aid design through restoration of the neural code. bioRxiv 2026.02.02.703273; doi: [doi.org/10.64898/2026.02.02.703273](https://doi.org/10.64898/2026.02.02.703273)
 
 The *AidNet* folder contains the deep-neural-network (DNN) architecture, weights and configuration parameters of the pre-trained AidNet model. The *src* folder contains all the supplementary Python functions to execute AidNet. This repository also contains an example sound file `scribe_male_talker.wav` from the [UCL SCRIBE dataset](http://www.phon.ucl.ac.uk/resource/scribe), a pre-compiled Python version of the provided Jupyter notebook `AidNet_example.py`, this `README.MD` document and a license file. The repository can be used together with the [ICNet repository](https://github.com/fotisdr/ICNet) to simulate neural activity in the IC. 
 
@@ -40,4 +40,4 @@ For questions, please reach out to one of the corresponding authors:
 * Fotios Drakopoulos: f.drakopoulos@ucl.ac.uk
 * Nicholas A Lesica: n.lesica@ucl.ac.uk
 
-> This work was supported by UK EPSRC EP/W004275/1, BBSRC BB/Y008758/1 and MRC MR/W019787/1.
+> This work was supported by UK MRC UKRI3206, EPSRC EP/W004275/1, BBSRC BB/Y008758/1 and MRC MR/W019787/1. 
